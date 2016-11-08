@@ -1,7 +1,7 @@
 # DULIBUI
 An application that help user to set plans for backpacking trips. Apps also help user to find the partners. 
 
-Submitted by: **Lanh Hoang**
+Submitted by: **Echo Studio**
 
 Time spent: ** ** hours spent in total
 
@@ -28,7 +28,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![Video Walkthrough](http://i.imgur.com/.gif)
+![Video Walkthrough](http://i.imgur.com/sEuHLMh.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
