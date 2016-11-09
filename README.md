@@ -9,20 +9,20 @@ Time spent: ** ** hours spent in total
 
 The following **required** functionality is complete:
 
-* [x] User can create plans for backpacking trips.
-* [x] User can find the partners to join their plans. User can join the others plans
-* [x] User can check google map to find the way and check their location, their partners location.
-* [x] User have their own profile page.
-* [x] User can add friend, like and comment on the others posts (plans, pictures, reviews).
-* [x] User can post pictures, reviews about the trips on their home page.
-* [x] User can take the photo through the apps.
+* [ ] User can create plans for backpacking trips.
+* [ ] User can find the partners to join their plans. User can join the others plans
+* [ ] User can check google map to find the way and check their location, their partners location.
+* [ ] User have their own profile page.
+* [ ] User can add friend, like and comment on the others posts (plans, pictures, reviews).
+* [ ] User can post pictures, reviews about the trips on their home page.
+* [ ] User can take the photo through the apps.
 
 The following **additional** features are implemented:
 
-- [x] User can link their account to Facebook and share picture or check-in.
-- [x] User can track their achievement after each trip (longest trip, largest group of partners, number of plans completed, …). Earn the beautiful badge for each achievement.
-- [x] User can use the apps to custom their trip pictures.
-- [x] User can check the weather forecast.
+- [ ] User can link their account to Facebook and share picture or check-in.
+- [ ] User can track their achievement after each trip (longest trip, largest group of partners, number of plans completed, …). Earn the beautiful badge for each achievement.
+- [ ] User can use the apps to custom their trip pictures.
+- [ ] User can check the weather forecast.
 
 ## Video Walkthrough 
 
