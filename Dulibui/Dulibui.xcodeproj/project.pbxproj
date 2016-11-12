@@ -13,9 +13,11 @@
 		41A08A1E1DD79A780025DB8E /* Dulibui.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 41A08A1C1DD79A780025DB8E /* Dulibui.xcdatamodeld */; };
 		41A08A201DD79A780025DB8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A08A1F1DD79A780025DB8E /* Assets.xcassets */; };
 		41A08A231DD79A780025DB8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41A08A211DD79A780025DB8E /* LaunchScreen.storyboard */; };
+		67B37518069C1D83012C321D /* Pods_Dulibui.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31F7E453D7A673A8B250C48 /* Pods_Dulibui.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B2513D952236FBE04EAAC28 /* Pods-Dulibui.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dulibui.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dulibui/Pods-Dulibui.release.xcconfig"; sourceTree = "<group>"; };
 		41A08A121DD79A780025DB8E /* Dulibui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dulibui.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41A08A151DD79A780025DB8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41A08A171DD79A780025DB8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		41A08A1F1DD79A780025DB8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41A08A221DD79A780025DB8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41A08A241DD79A780025DB8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81078851F30CB417A9A892AF /* Pods-Dulibui.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dulibui.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dulibui/Pods-Dulibui.debug.xcconfig"; sourceTree = "<group>"; };
+		D31F7E453D7A673A8B250C48 /* Pods_Dulibui.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dulibui.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67B37518069C1D83012C321D /* Pods_Dulibui.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		249F22EE9C925745BA585D7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D31F7E453D7A673A8B250C48 /* Pods_Dulibui.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		41A08A091DD79A770025DB8E = {
 			isa = PBXGroup;
 			children = (
 				41A08A141DD79A780025DB8E /* Dulibui */,
 				41A08A131DD79A780025DB8E /* Products */,
+				915B14DB2BC20E161675841F /* Pods */,
+				249F22EE9C925745BA585D7F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +82,15 @@
 			path = Dulibui;
 			sourceTree = "<group>";
 		};
+		915B14DB2BC20E161675841F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81078851F30CB417A9A892AF /* Pods-Dulibui.debug.xcconfig */,
+				2B2513D952236FBE04EAAC28 /* Pods-Dulibui.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41A08A271DD79A780025DB8E /* Build configuration list for PBXNativeTarget "Dulibui" */;
 			buildPhases = (
+				4E7E8D187F00B2FE2AA3F406 /* [CP] Check Pods Manifest.lock */,
 				41A08A0E1DD79A770025DB8E /* Sources */,
 				41A08A0F1DD79A770025DB8E /* Frameworks */,
 				41A08A101DD79A770025DB8E /* Resources */,
+				1EAE8DD9328EAF5B7FF61762 /* [CP] Embed Pods Frameworks */,
+				A1B7FA68620224ABE2291B93 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,6 +160,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EAE8DD9328EAF5B7FF61762 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dulibui/Pods-Dulibui-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E7E8D187F00B2FE2AA3F406 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A1B7FA68620224ABE2291B93 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dulibui/Pods-Dulibui-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		41A08A0E1DD79A770025DB8E /* Sources */ = {
@@ -260,6 +335,7 @@
 		};
 		41A08A281DD79A780025DB8E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81078851F30CB417A9A892AF /* Pods-Dulibui.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Dulibui/Info.plist;
@@ -272,6 +348,7 @@
 		};
 		41A08A291DD79A780025DB8E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B2513D952236FBE04EAAC28 /* Pods-Dulibui.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Dulibui/Info.plist;
@@ -301,6 +378,7 @@
 				41A08A291DD79A780025DB8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
