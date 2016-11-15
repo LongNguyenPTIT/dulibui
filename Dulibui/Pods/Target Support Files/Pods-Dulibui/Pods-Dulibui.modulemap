@@ -1,0 +1,6 @@
+framework module Pods_Dulibui {
+  umbrella header "Pods-Dulibui-umbrella.h"
+
+  export *
+  module * { export * }
+}

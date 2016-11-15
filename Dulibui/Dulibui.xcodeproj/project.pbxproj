@@ -13,6 +13,7 @@
 		41A08A1E1DD79A780025DB8E /* Dulibui.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 41A08A1C1DD79A780025DB8E /* Dulibui.xcdatamodeld */; };
 		41A08A201DD79A780025DB8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A08A1F1DD79A780025DB8E /* Assets.xcassets */; };
 		41A08A231DD79A780025DB8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41A08A211DD79A780025DB8E /* LaunchScreen.storyboard */; };
+		41EB80621DDBD1C0008EA67E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 41EB80611DDBD1C0008EA67E /* GoogleService-Info.plist */; };
 		67B37518069C1D83012C321D /* Pods_Dulibui.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31F7E453D7A673A8B250C48 /* Pods_Dulibui.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 		41A08A1F1DD79A780025DB8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41A08A221DD79A780025DB8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41A08A241DD79A780025DB8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41EB80611DDBD1C0008EA67E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		81078851F30CB417A9A892AF /* Pods-Dulibui.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dulibui.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dulibui/Pods-Dulibui.debug.xcconfig"; sourceTree = "<group>"; };
 		D31F7E453D7A673A8B250C48 /* Pods_Dulibui.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dulibui.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -77,6 +79,7 @@
 				41A08A1F1DD79A780025DB8E /* Assets.xcassets */,
 				41A08A211DD79A780025DB8E /* LaunchScreen.storyboard */,
 				41A08A241DD79A780025DB8E /* Info.plist */,
+				41EB80611DDBD1C0008EA67E /* GoogleService-Info.plist */,
 				41A08A1C1DD79A780025DB8E /* Dulibui.xcdatamodeld */,
 			);
 			path = Dulibui;
@@ -154,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41A08A231DD79A780025DB8E /* LaunchScreen.storyboard in Resources */,
+				41EB80621DDBD1C0008EA67E /* GoogleService-Info.plist in Resources */,
 				41A08A201DD79A780025DB8E /* Assets.xcassets in Resources */,
 				41A08A1B1DD79A780025DB8E /* Main.storyboard in Resources */,
 			);

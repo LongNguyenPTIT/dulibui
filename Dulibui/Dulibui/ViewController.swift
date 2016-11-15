@@ -7,17 +7,28 @@
 //
 
 import UIKit
+import Firebase
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        signUp()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func signUp() {
+        FIRAuth.auth()?.createUser(withEmail: "long.nalou@gmail.com", password: "password123", completion: { (user, error) in
+            if let user = user {
+                print(user.uid)
+                print(user.email)
+            }
+        })
     }
 
 
